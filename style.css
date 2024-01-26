@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    position: relative;
+}
+.adviceTextAndNumber{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.randomQuote{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.dividerImg{
+    padding-bottom: 70px;
+}
+.circleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+}
+.circleContainer:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%, 0.8); 
+}
